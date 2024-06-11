@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import { FaFacebookF, FaLinkedinIn, FaInstagram } from "react-icons/fa";
 import { contactImg } from "../../assets/index";
 
 const ContactLeft = () => {
@@ -11,19 +11,18 @@ const ContactLeft = () => {
         alt="contactImg"
       />
       <div className="flex flex-col gap-4">
-        <h3 className="text-3xl font-bold text-white">John Doe</h3>
+        <h3 className="text-3xl font-bold text-white">Pratham Ahuja</h3>
         <p className="text-lg font-normal text-gray-400">
-          MERN Stack Developer
+          Frontend Web Developer
         </p>
         <p className="text-base text-gray-400 tracking-wide">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis
-          ipsam autem cumque, accusantium dicta odio.
+        Front End Web Developer with expertise in HTML, CSS, JavaScript, and React. Passionate about creating responsive and intuitive web experiences. Contact me for collaboration.
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
-          Phone: <span className="text-lightText">+968 97859628</span>
+          Phone: <span className="text-lightText">+91 7988963718</span>
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
-          Email: <span className="text-lightText">noor.jsdivs@gmail.com</span>
+          Email: <span className="text-lightText">prathamahuja0036@gmail.com</span>
         </p>
       </div>
       <div className="flex flex-col gap-4">
@@ -33,7 +32,7 @@ const ContactLeft = () => {
             <FaFacebookF />
           </span>
           <span className="bannerIcon">
-            <FaTwitter />
+            <FaInstagram />
           </span>
           <span className="bannerIcon">
             <FaLinkedinIn />

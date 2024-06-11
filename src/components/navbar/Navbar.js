@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <div className="w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
       <div>
-        <img src={logo} alt="logo" />
+        <img src={logo} alt="logo" className="w-20 h-auto" />
       </div>
       <div>
         <ul className="hidden mdl:inline-flex items-center gap-6 lg:gap-10">
@@ -45,9 +45,7 @@ const Navbar = () => {
               <div>
                 <img className="w-32" src={logo} alt="logo" />
                 <p className="text-sm text-gray-400 mt-2">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Earum soluta perspiciatis molestias enim cum repellat, magnam
-                  exercitationem distinctio aliquid nam.
+                Front End Web Developer with expertise in HTML, CSS, JavaScript, and React. Passionate about creating responsive and intuitive web experiences. Contact me for collaboration.
                 </p>
               </div>
               <ul className="flex flex-col gap-4">

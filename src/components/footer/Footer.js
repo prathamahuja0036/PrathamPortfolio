@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import { FaFacebookF, FaLinkedinIn, FaInstagram } from "react-icons/fa";
 import {logo} from "../../assets/index"
 
 const Footer = () => {
@@ -12,7 +12,7 @@ const Footer = () => {
             <FaFacebookF />
           </span>
           <span className="bannerIcon">
-            <FaTwitter />
+            <FaInstagram />
           </span>
           <span className="bannerIcon">
             <FaLinkedinIn />
